@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{%extends 'testapp/home.html'%}
+{%block body%}
+<h3 class="heading">Menu</h3>
+<div class="container">
+    <table class="table">
+        <tr>
+            <th>Dishes</th>
+            <th>Taste</th>
+            <th>Price</th>
+        </tr>
+        {%for d in Dish%}
+        <tr>
+            <td>{{d.Name}}</td>
+            <td>{{d.Taste}}</td>
+            <td>{{d.Price}}</td>
+        </tr>
+        {%endfor%}
+    </table>
+</div>
+{%endblock%}
