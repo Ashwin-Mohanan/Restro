@@ -1,0 +1,29 @@
+.bg-imgs {
+    background-image: url(https://img.lovepik.com/photo/40015/5932.jpg_wh300.jpg);
+    /* position: absolute; */
+    background-size: cover;
+ 
+    /* position: relative;  */
+
+    height: 100vh;
+    /* background-size: cover; */
+}
+.navbar{
+    background-color: rgb(4 40 48);
+    color: bisque;
+}
+.heading{
+    color: rgb(241, 79, 3);
+    text-align: center;
+    padding-bottom: 5px;
+}
+.table{
+    color:rgb(230, 255, 4);
+}
+.Container{
+    color:rgb(135, 182, 41);
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
